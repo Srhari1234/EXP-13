@@ -1,9 +1,9 @@
 ## Experiment 13
 
-## AIM:
+## Aim:
 To study and implement Constructor Overloading
 
-## THEORY:
+## Theory:
 In C++, constructor overloading allows a class to have more than one constructor with different parameter lists. This enables the creation of objects in various ways depending on the argument passed during the instantiation. The compiler differentiates between constructors by checking the number and types of arguments.
 
 Default Constructor: Initializes the object with default values (here, 0 for width and height).
@@ -11,7 +11,7 @@ Parameterized Constructor: Allows the user to initialize the object with specifi
 Copy Constructor: Initializes the object by copying values from another object.
 This overloading helps provide flexibility when creating objects. The compiler will decide which constructor to use based on the arguments passed during object creation.
 
-CONSTRUCTOR OVERLOADING IN C++:
+Constructor overloading in C++:
 ~~~
 //Name: Srihari Nair
 //Prn: 23070123131
@@ -70,7 +70,7 @@ int main()
 
 ![image](https://github.com/user-attachments/assets/2e150f1d-9e91-4375-93f6-c48a1f760fdc)
 
-CONSTRUCTOR OVERLOADING AND COPY CONSTRUCTOR.:
+Constructor overloading and copy constructor:
 ~~~
 //Name: Srihari Nair
 //Prn: 23070123131
