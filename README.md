@@ -1,9 +1,9 @@
-# Experiment 13
+## Experiment 13
 
-# Aim:
+## AIM:
 To study and implement Constructor Overloading
 
-# Theory:
+## THEORY:
 In C++, constructor overloading allows a class to have more than one constructor with different parameter lists. This enables the creation of objects in various ways depending on the argument passed during the instantiation. The compiler differentiates between constructors by checking the number and types of arguments.
 
 Default Constructor: Initializes the object with default values (here, 0 for width and height).
@@ -11,8 +11,11 @@ Parameterized Constructor: Allows the user to initialize the object with specifi
 Copy Constructor: Initializes the object by copying values from another object.
 This overloading helps provide flexibility when creating objects. The compiler will decide which constructor to use based on the arguments passed during object creation.
 
-code 1
+CONSTRUCTOR OVERLOADING IN C++:
 ~~~
+//Name: Srihari Nair
+//Prn: 23070123131
+//Class: EnTC B-2
 #include<iostream>
 using namespace std;
 
@@ -62,11 +65,16 @@ int main()
     return 0;
 }
 ~~~
+
+## OUTPUT:
+
 ![image](https://github.com/user-attachments/assets/2e150f1d-9e91-4375-93f6-c48a1f760fdc)
 
-
-code 2
+CONSTRUCTOR OVERLOADING AND COPY CONSTRUCTOR.:
 ~~~
+//Name: Srihari Nair
+//Prn: 23070123131
+//Class: EnTC B-2
 #include<iostream>
 using namespace std;
 
@@ -102,4 +110,10 @@ int main()
     return 0;
 }
 ~~~
+
+## OUTPUT:
+
 ![image](https://github.com/user-attachments/assets/2c42bebb-3eae-4823-9804-2813283f9d5a)
+
+## CONCLUSION:
+Constructor overloading in C++ allows a class to have multiple constructors with different parameter lists, providing flexibility in object creation. By defining various constructors, you can initialize objects in different ways based on the provided arguments. This technique enhances code readability and reusability by accommodating different initialization scenarios. In the provided code examples, constructor overloading is demonstrated with default, parameterized, and copy constructors, showcasing how objects can be created with default values, specific values, or by copying other objects.
