@@ -11,7 +11,7 @@ Parameterized Constructor: Allows the user to initialize the object with specifi
 Copy Constructor: Initializes the object by copying values from another object.
 This overloading helps provide flexibility when creating objects. The compiler will decide which constructor to use based on the arguments passed during object creation.
 
-Constructor overloading in C++:
+## Constructor overloading in C++:
 ~~~
 //Name: Srihari Nair
 //Prn: 23070123131
@@ -70,7 +70,7 @@ int main()
 
 ![image](https://github.com/user-attachments/assets/2e150f1d-9e91-4375-93f6-c48a1f760fdc)
 
-Constructor overloading and copy constructor:
+## Constructor overloading and copy constructor:
 ~~~
 //Name: Srihari Nair
 //Prn: 23070123131
